@@ -153,6 +153,17 @@ After running tests, an **HTML report** is automatically generated:
 npx playwright show-report
 ```
 
+## Initialize project command for dependencies
+
+
+
+```bash
+npm install                  # recreates node_modules
+npx playwright install       # installs browsers
+npx playwright test          # generates fresh reports
+
+```
+
 
 ## 🛠️ Utilities — `utils/randomData.js`
 
